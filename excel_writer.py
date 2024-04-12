@@ -2,7 +2,7 @@ import xlsxwriter
 from scrapingclub_parcer import array
 
 def writer(parametr):
-    book = xlsxwriter.Workbook(r"D:/Prograramming/test/data.xlsx")
+    book = xlsxwriter.Workbook(r"D:/Prograramming/test/data.xlsx") #Прописываете путь до вашего пустого файла excel
     page = book.add_worksheet("products")
 
     row = 0
